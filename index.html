@@ -174,7 +174,8 @@
             <ul class="menu2">
                 <li><a href="#"><i class="fas fa-music"></i> Nhạc mới</a></li>
                 <li><a href="#"><i class="fas fa-th"></i> Chủ đề</a></li>
-                <li><a href="#"><i class="fas fa-star"></i> Top 100</a></li>                
+                <li><a href="#"><i class="fas fa-star"></i> Top 100</a></li>
+                <li><a href="#"><i class="fas fa-address-card"></i> Contact with us</a></li>                            
             </ul>
             <br><br>
             <div class="signIn">
@@ -461,7 +462,7 @@
   
           handleEvents: function () {
             const _this = this;
-            const cdWidth = cd.offsetWidth;
+           
   
             //Xử lí CD quay / dừng
             const cdThumbAnimate = cdThumb.animate(
@@ -609,7 +610,6 @@
             //Định nghĩa các thuộc tính của object
             this.defineProperties();
   
-            //Cuộn con trỏ để img chính được thu phóng theo kích thước con trỏ
             this.handleEvents();
             //Tải thông tin bài hát đầu tiên lên UI khi chạy ứng dụng
             this.loadCurrentSong();
